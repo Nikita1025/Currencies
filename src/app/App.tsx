@@ -1,8 +1,8 @@
 import React from 'react';
 import style from './App.module.css';
-import {Currencies} from "./feachers/currencies/Сurrencies";
+import {Currencies} from "../feachers/currencies/Сurrencies";
 import {Route, Routes} from "react-router-dom";
-import {Exchanger} from "./feachers/exchanger/Exchanger";
+import {Exchanger} from "../feachers/exchanger/Exchanger";
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';

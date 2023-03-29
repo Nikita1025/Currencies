@@ -3,9 +3,9 @@ import {Button, InputLabel, TextField} from "@mui/material";
 import FormControl from "@mui/material/FormControl";
 import Select, {SelectChangeEvent} from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
-import {useAppDispatch, useAppSelector} from "../store/store";
+import {useAppDispatch, useAppSelector} from "../../store/store";
 import style from "./Exchanger.module.css";
-import {getDataThunk} from "../store/reducer/currenciesReducer";
+import {getDataThunk} from "../../store/reducer/currenciesReducer";
 import {useNavigate} from "react-router-dom";
 
 export const Exchanger = () => {

@@ -3,8 +3,8 @@ import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select, {SelectChangeEvent} from '@mui/material/Select';
 import style from './Currencies.module.css'
-import {useAppDispatch, useAppSelector} from "../store/store";
-import {getDataThunk} from "../store/reducer/currenciesReducer";
+import {useAppDispatch, useAppSelector} from "../../store/store";
+import {getDataThunk} from "../../store/reducer/currenciesReducer";
 import {Button, InputLabel} from "@mui/material";
 import {useNavigate} from "react-router-dom";
 export const Currencies = () => {
