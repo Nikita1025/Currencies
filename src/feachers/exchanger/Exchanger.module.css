@@ -1,0 +1,45 @@
+.container{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.container_box{
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #e0e1e5;
+    margin-top: 30%;
+}
+
+.select_container{
+    display: flex;
+    gap:32px
+}
+.input_container{
+    display: flex;
+    gap: 32px;
+    margin-top: 20px;
+}
+.input{
+    width: 250px;
+}
+.span{
+    width: 150px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    background-color: #F1F2F5;
+    display: block;
+    border-radius: 3px;
+    padding: 17px;
+}
+
+.span_header{
+    width: 215px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.42);
+    background-color: #F1F2F5;
+    display: block;
+    border-radius: 3px;
+    padding: 17px;
+}
+.button{
+    width: 100%;
+
+}
