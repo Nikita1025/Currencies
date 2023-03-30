@@ -71,7 +71,7 @@ export const Exchanger = (): JSX.Element => {
           <TextField
             onChange={onChaneBuyHandler}
             className={style.input}
-            label="Outlined"
+            label="Enter..."
             variant="outlined"
           />
           <span className={style.span}>{sellValue}</span>
