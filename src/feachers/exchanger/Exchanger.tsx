@@ -40,7 +40,7 @@ export const Exchanger = (): JSX.Element => {
     setSellValue(newNum);
   };
   const onClickNavigate = (): void => {
-    navigate('/');
+    navigate('/Currencies');
   };
 
   return (

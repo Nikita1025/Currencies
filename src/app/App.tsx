@@ -24,7 +24,7 @@ const App = (): JSX.Element => {
         </AppBar>
       </Box>
       <Routes>
-        <Route path="/" element={<Currencies />} />
+        <Route path="/Currencies" element={<Currencies />} />
         <Route path="/exchanger" element={<Exchanger />} />
       </Routes>
     </div>
