@@ -39,6 +39,9 @@
       "prettier --write"
     ]
   },
+  "compilerOptions": {
+    "moduleResolution": "node"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",

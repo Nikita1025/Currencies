@@ -1,4 +1,4 @@
-import React, { ChangeEvent, useEffect, useState } from 'react';
+import * as React from 'react';
 
 import { Button, InputLabel, TextField } from '@mui/material';
 import FormControl from '@mui/material/FormControl';
@@ -10,6 +10,7 @@ import { getDataThunk } from '../../store/reducer/currenciesReducer';
 import { useAppDispatch, useAppSelector } from '../../store/store';
 
 import style from './Exchanger.module.css';
+import {ChangeEvent, useEffect, useState} from "react";
 
 export const Exchanger = (): JSX.Element => {
   const currency = useAppSelector(state => state.currency);

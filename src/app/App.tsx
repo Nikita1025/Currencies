@@ -9,6 +9,7 @@ import { Route, Routes } from 'react-router-dom';
 import { Currencies } from '../feachers/currencies/Сurrencies';
 import { Exchanger } from '../feachers/exchanger/Exchanger';
 
+
 import style from './App.module.css';
 
 const App = (): JSX.Element => {
